@@ -8,18 +8,18 @@
 
     } else {
 
-        echo '<h1>Riepilogo Valutazioni</h1>';
+        echo '<h1>Riepilogo valutazioni</h1>';
 
         //Ultima valutazione inserita
 
-        echo '<h3>Ultima Valutazione inserita:</h3>';
+        echo '<h3>Ultima valutazione inserita:</h3>';
         echo '<p>Genere: <b>' . $_SESSION["ultima_valutazione"]["genere"] . '</b> <br>';
         echo 'Valutazione: <b>' . $_SESSION['ultima_valutazione']['valutazione'] . '</b> </p>';
 
         //Lista di tutte le valutazioni inserite
 
         echo '<h3>Lista di tutte le valutazioni:</h3>';
-        
+
         foreach ($_SESSION["valutazioni"] as $genere => $valutazione) {
             echo "$genere - <b>$valutazione</b> <br>";
         }
