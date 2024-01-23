@@ -19,7 +19,7 @@
         }
 
         echo '<h1>Raccolta Dati</h1>';
-        echo '<button onclick="location.href=\'valutazione.php\'">INSERISCI UNA NUOVA VALUTAZIONE</button> <br><br>';
+        echo '<button onclick="location.href=\'index.php\'">INSERISCI UNA NUOVA VALUTAZIONE</button> <br><br>';
         echo '<button onclick="location.href=\'riepilogo.php\'">VAI ALLA PAGINA DI RIEPILOGO</button>';
 
     }
